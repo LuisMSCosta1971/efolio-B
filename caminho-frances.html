@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminho Francês</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Caminhos de Santiago</h1>
+    <nav>
+      <a href="index.html"><img src="icons8-casa-50.png" alt="Inicio"> 
+      <a href="caminho-central.html">Caminho Central</a>
+      <a href="caminho-da-costa.html">Caminho da Costa</a>
+      <a href="caminho-finisterra.html">Caminho Finisterra</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div id="sidebar" class="sidebar">
+        <a href="index.html">Início</a>
+        <a href="viagens.html">Viagens</a>
+        <a href="btt.html">BTT</a>
+        <a href="caminhos-santiago.html">Caminhos de Santiago</a>
+        <a href="caminho-central.html">Caminho Central</a>
+        <a href="caminho-frances.html">Caminho Francês</a>
+        <a href="caminho-da-costa.html">Caminho da Costa</a>
+        <a href="caminho-finisterra.html">Finisterra</a>    
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">✖</a>
+    </div>
+  </header>
+  <main>
+    <div class="voltar"><h1><a href="caminhos-santiago.html">Voltar</a></h1></div>
+    <h2>Sobre o Caminho Francês</h2>
+    Ainda não fiz este caminho mas sem duvida que está nos meus objetivos.
+    <p>Esta rota iconica cruza o norte de Espanha, começando em França.</p>
+
+    <p>O Caminho Francês de Santiago é a rota de peregrinação mais popular a Santiago de Compostela. Após a descoberta do túmulo do Apóstolo Santiago no século IX e o início 
+      do Caminho de Santiago, o Caminho Francês foi o itinerário mais utilizado pelos peregrinos da Europa.
+    </p>
+
+  
+      <section class="form-container">
+        <img src="caminho-frances/Captura.jpg" alt="Seta Caminho Francês">
+        <div class="form-wrapper">
+
+          <p class="text-box">Convido todos que tenham um testemunho do Caminho Francês até Santiago a deixar algumas dicas.</p>
+          <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email">
+      
+            <label for="pergunta1">Já fez o caminho?</label>
+            <select id="pergunta1" name="pergunta1">
+              <option value="sim">Sim</option>
+              <option value="nao">Não</option>
+            </select>
+
+            <label for="pergunta2">De que modo?</label>
+            <select id="pergunta2" name="pergunta2">
+              <option value="(...)">...</option>
+              <option value="Bicicleta">Bicicleta</option>
+              <option value="Caminhar">Caminhar</option>
+            </select>
+      
+            <label for="mensagem">Testemunho ou dicas de viagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+      
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>        
+      
+  </main>
+  <footer>
+    <p>&copy; 2025 Luis Costa</p>
+  </footer>
+  <script src="java.js"></script>
+</body>
+</html>

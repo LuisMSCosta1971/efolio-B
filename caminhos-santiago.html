@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminhos de Santiago</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>Caminhos de Santiago</h1>
+    <nav>
+      <a href="index.html"><img src="icons8-casa-50.png" alt="Inicio"> 
+      <a href="viagens.html">Viagens</a>
+      <a href="btt.html">BTT</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div id="sidebar" class="sidebar">
+        <a href="index.html">Início</a>
+        <a href="viagens.html">Viagens</a>
+        <a href="btt.html">BTT</a>
+        <a href="caminhos-santiago.html">Caminhos de Santiago</a>
+        <a href="caminho-central.html">Caminho Central</a>
+        <a href="caminho-frances.html">Caminho Francês</a>
+        <a href="caminho-da-costa.html">Caminho da Costa</a>
+        <a href="caminho-finisterra.html">Finisterra</a>
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">✖</a>
+    </div>
+
+  </header>
+  <main>
+    <h2>Escolha uma rota para ver fotos</h2>
+    <div class="gallery">
+      <figure>
+        <a href="caminho-central.html">
+          <img src="caminho-portugues/Caminho-Port-mapa.jpg" alt="Caminho Central Português" > 
+        </a>
+        <figcaption>Caminho Central</figcaption>
+      </figure>
+
+      <figure>
+        <a href="caminho-frances.html">
+          <img src="caminho-frances/mapa-frances.jpg" alt="Caminho Francês" >
+        </a>
+        <figcaption>Caminho Francês</figcaption>
+      </figure>
+
+      <figure>
+        <a href="caminho-da-costa.html">
+          <img src="caminho-costa/Mapa-do-Caminho-Português-da-Costa.jpg" alt="Caminho da Costa" >
+        </a>
+        <figcaption>Caminho da Costa</figcaption>
+      </figure>    
+      
+      <figure>
+        <a href="caminho-finisterra.html">
+          <img src="caminho-finisterra/mapa-finisterra.png" alt="Caminho Finisterra">
+        </a>
+        <figcaption>Compostela a Finisterra</figcaption>
+      </figure>  
+    </div>       
+  </main>
+  <footer>
+    <p>&copy; 2025 Luis Costa</p>
+  </footer>
+  <script src="java.js"></script>
+</body>
+</html>
